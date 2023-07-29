@@ -1,9 +1,12 @@
-<h1>Niamh Dell</h1>
-<h2>
-<a href='mailto:dell.niamh@gmail.com'>dell.niamh@gmail.com</a>
-</h2>
+
 
 <div class='videos'>
+	<header>
+		<h1>Niamh Dell</h1>
+		<h2>
+			<a href='mailto:dell.niamh@gmail.com'>dell.niamh@gmail.com</a>
+		</h2>
+	</header>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/SRCg8-k2Viw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/hvEs7tEkrp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -33,6 +36,7 @@
 	.videos {
 		display: grid;
 		grid-template-columns: auto auto;
+		justify-content: center;
 		gap: 1em; 
 	}
 </style>

@@ -9,6 +9,6 @@
 <style>
 	main {
 		margin: 0 auto;
-		max-width: 90%;
+		max-width: 80%
 	}
 </style>
