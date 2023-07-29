@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+:root {
+	--bg: rgb(255, 255, 255);
+	--text: black;
+	--links: hsl(222, 58%, 60%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: rgb(41, 41, 41);
+		--text: white;
+		--links: rgb(213, 137, 213);
+	}
+}
+
+html {
+	font-family: 'Cormorant Garamond', sans-serif;
+	background-color: var(--bg);
+	color: var(--text);
+	transition: background-color 1s cubic-bezier(0.19, 1, 0.22, 1);
+	transition: color 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+a, a:visited {
+	color: var(--links);
+	transition: background-color 1s cubic-bezier(0.19, 1, 0.22, 1);
+	transition: color 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
