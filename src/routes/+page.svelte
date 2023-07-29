@@ -31,10 +31,17 @@
 </div>
 
 <style>
-	.videos {
-		display: grid;
-		grid-template-columns: auto auto;
-		justify-content: center;
-		gap: 1em; 
-	}
+.videos {
+  display: grid;
+  grid-gap: 10px; /* Adjust the gap between grid items as needed */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two columns, auto-adjusting */
+}
+
+/* Iframes inside grid items */
+iframe {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 75%; /* Maintain a 4:3 aspect ratio (adjust as needed) */
+}
+
 </style>
